@@ -30,13 +30,15 @@ g++ -o game main.cpp
 
 # Run the game
 ./game
+```
 ### Using Visual Studio
+
 Open RockPaperScissor.sln in Visual Studio
 
 Build the solution (Ctrl+Shift+B)
 
 Run the program (F5)
-```
+
 
 ## How to Play
 Run the executable by typing ./game in your terminal
@@ -70,11 +72,17 @@ Same choice results in a draw
 ## Project Structure:
 
 RockPaperScissor/
+
 ├── main.cpp                 # Main game implementation
+
 ├── RockPaperScissor.sln     # Visual Studio solution file
+
 ├── RockPaperScissor.vcxproj # Project configuration
+
 ├── README.md                # Project documentation
+
 ├── LICENSE                  # MIT License
+
 └── .gitignore              # Git ignore rules
 
 ## Code Architecture:
