@@ -36,6 +36,7 @@ Open RockPaperScissor.sln in Visual Studio
 Build the solution (Ctrl+Shift+B)
 
 Run the program (F5)
+```
 
 ## How to Play
 Run the executable by typing ./game in your terminal
