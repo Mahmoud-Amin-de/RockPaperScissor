@@ -39,3 +39,27 @@
 
 # debug information files
 *.dwo
+
+# ========== VISUAL STUDIO SPECIFIC ==========
+
+# Visual Studio directories
+.vs/
+x64/
+x86/
+Debug/
+Release/
+ipch/
+*.opendb
+*.vc.db
+
+# Visual Studio user files
+*.user
+*.aps
+*.db-shm
+*.db-wal
+*.tlog
+*.log
+
+# Visual Studio temporary files
+*.tmp
+*.temp
