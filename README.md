@@ -56,7 +56,8 @@ See final statistics and overall winner after all rounds
 
 Choose to play again by typing 'Y' or exit by typing 'N'
 
-Game Rules
+Game Rules:
+
 Rock crushes Scissors ✊ > ✌️
 
 Scissors cuts Paper ✌️ > ✋
@@ -65,8 +66,8 @@ Paper covers Rock ✋ > ✊
 
 Same choice results in a draw
 
-Project Structure
-text
+Project Structure:
+
 RockPaperScissor/
 ├── main.cpp                 # Main game implementation
 ├── RockPaperScissor.sln     # Visual Studio solution file
@@ -74,7 +75,9 @@ RockPaperScissor/
 ├── README.md                # Project documentation
 ├── LICENSE                  # MIT License
 └── .gitignore              # Git ignore rules
-Code Architecture
+
+Code Architecture:
+
 The project uses clean, modular C++ with:
 
 Enum-based states for game choices and winners
@@ -88,6 +91,7 @@ Color-coded UI for enhanced user experience
 Input validation for error-free interaction
 
 Key Functions:
+
 PlayGame() - Manages the main game flow
 
 WhoWonTheRound() - Implements game rules logic
@@ -96,7 +100,8 @@ PrintRoundResults() - Displays colorful round outcomes
 
 ShowFinalGameResults() - Shows comprehensive statistics
 
-UI/UX Features
+UI/UX Features:
+
 Clean console interface with proper formatting and tabs
 
 Dynamic color changes based on game outcome:
@@ -113,7 +118,7 @@ Comprehensive game statistics including wins, draws, and final winner
 
 Visual separation between different rounds and final results
 
-Contributing
+Contributing:
 Contributions, issues, and feature requests are welcome! Feel free to check issues page if you want to contribute.
 
 Fork the repository
@@ -135,6 +140,7 @@ Mahmoud Amin
 GitHub: @Mahmoud-Amin-de
 
 Attribution
+
 *Game concept inspired by "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices.
 Code implementation, structure, and additional features developed from scratch by Mahmoud Amin.*
 
