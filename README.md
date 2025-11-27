@@ -4,7 +4,7 @@ A professional C++ console implementation of the classic Rock Paper Scissors gam
 
 ## Project Context
 
-This project was developed as part of the **"Algorithms & Problem-Solving Level 2 Course"** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
+This project was developed as part of the **05 - Algorithms & Problem-Solving Level 2 Course"** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
 
 ## Features
 
