@@ -5,32 +5,34 @@ A professional C++ console implementation of the classic Rock Paper Scissors gam
 ## 🎮 Gameplay Screenshots
 
 ### Game Start
-![Game Start](screenshots/1-game-start.png)
+
+![Game Start](./screenshots/1-game-start.PNG)
 *Starting the game - selecting number of rounds*
 
-### Player Input
-![Player Input](screenshots/2-round-input.png)
+### Player Input  
+![Player Input](./screenshots/2-round-input.PNG)
 *Making choices during gameplay*
 
-### Round Results  
-![Round Results](screenshots/3-round-results.png)
+### Round Results
+![Round Results](./screenshots/3-round-results.PNG)
 *Color-coded round results with winner announcement*
 
 ### Multiple Rounds
-![Multiple Rounds](screenshots/4-multiple-rounds.png)
+![Multiple Rounds](./screenshots/4-multiple-rounds.PNG)
 *Game progression through several rounds*
 
 ### Final Statistics
-![Final Results](screenshots/5-final-results.png)
+![Final Results](./screenshots/5-final-results.PNG)
 *Comprehensive game statistics and final winner*
 
 ### Player Victory
-![Player Win](screenshots/6-player-win.png)
+![Player Win](./screenshots/6-player-win.PNG)
 *Player winning a round against computer*
 
 ### Clean Layout
-![Clean Results](screenshots/7-clean-results.png)
+![Clean Results](./screenshots/7-clean-results.PNG)
 *Well-formatted game summary screen*
+
 ## Project Context
 
 This project was developed as part of the **05 - Algorithms & Problem-Solving Level 2 Course** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
@@ -100,18 +102,22 @@ Same choice results in a draw
 
 ## Project Structure:
 
+
 RockPaperScissor/
 
+├── screenshots/
+│   ├── 1-game-start.PNG
+│   ├── 2-round-input.PNG
+│   ├── 3-round-results.PNG
+│   ├── 4-multiple-rounds.PNG
+│   ├── 5-final-results.PNG
+│   ├── 6-player-win.PNG
+│   └── 7-clean-results.PNG
 ├── main.cpp                 # Main game implementation
-
 ├── RockPaperScissor.sln     # Visual Studio solution file
-
 ├── RockPaperScissor.vcxproj # Project configuration
-
 ├── README.md                # Project documentation
-
 ├── LICENSE                  # MIT License
-
 └── .gitignore              # Git ignore rules
 
 ## Code Architecture:
