@@ -1,56 +1,86 @@
-Stone Paper Scissors Game ??
+# Rock Paper Scissors Game 🎮
 
-A professional C++ console implementation of the classic Stone Paper Scissors game with colorful UI and multiple rounds support.
+A professional C++ console implementation of the classic Rock Paper Scissors game with colorful UI and multiple rounds support.
 
-?? Project Context
+## 🎮 Gameplay Screenshots
 
-This project was developed as part of the "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
+### Game Start
+![Game Start](screenshots/1-game-start.png)
+*Starting the game - selecting number of rounds*
 
-? Features
+### Player Input
+![Player Input](screenshots/2-round-input.png)
+*Making choices during gameplay*
 
-?? Classic Stone Paper Scissors gameplay with proper rules
+### Round Results  
+![Round Results](screenshots/3-round-results.png)
+*Color-coded round results with winner announcement*
 
-?? Multiple rounds (1-10) per game session
+### Multiple Rounds
+![Multiple Rounds](screenshots/4-multiple-rounds.png)
+*Game progression through several rounds*
 
-?? Colorful console interface with visual feedback
+### Final Statistics
+![Final Results](screenshots/5-final-results.png)
+*Comprehensive game statistics and final winner*
 
-?? Detailed game statistics and round history
+### Player Victory
+![Player Win](screenshots/6-player-win.png)
+*Player winning a round against computer*
 
-?? Play-again functionality for continuous gameplay
+### Clean Layout
+![Clean Results](screenshots/7-clean-results.png)
+*Well-formatted game summary screen*
+## Project Context
 
-? Real-time results with winner highlighting
+This project was developed as part of the **05 - Algorithms & Problem-Solving Level 2 Course** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
 
-?? Sound effects for computer wins
+## Features
 
-? Input validation for robust user experience
+- **Classic Rock Paper Scissors** gameplay with proper rules
+- **Multiple rounds** (1-10) per game session
+- **Colorful console interface** with visual feedback
+- **Detailed game statistics** and round history
+- **Play-again functionality** for continuous gameplay
+- **Real-time results** with winner highlighting
+- **Sound effects** for computer wins
+- **Input validation** for robust user experience
 
-?? Quick Start
+## Quick Start
 
-Prerequisites C++ compiler (GCC, Clang, or MSVC)
+### Prerequisites
+- C++ compiler (GCC, Clang, or MSVC)
+- Windows OS (for color support)
 
-Windows OS (for color support)
-
-Compile & Run bash
-
-Compile the project
+### Compile & Run
+```bash
+# Compile the project
 g++ -o game main.cpp
 
-Run the game
-./game Using Makefile (Alternative) bash make # Compiles the game ./game # Runs the game make clean # Cleans compiled files
+# Run the game
+./game
+```
+### Using Visual Studio
 
-?? How to Play
+Open RockPaperScissor.sln in Visual Studio
 
+Build the solution (Ctrl+Shift+B)
+
+Run the program (F5)
+
+
+## How to Play
 Run the executable by typing ./game in your terminal
 
 Enter number of rounds when prompted (choose between 1-10)
 
 For each round, make your choice:
 
-Type 1 for Stone ?
+Type 1 for Rock ✊
 
-Type 2 for Paper ?
+Type 2 for Paper ✋
 
-Type 3 for Scissors ??
+Type 3 for Scissors ✌️
 
 View round results with color-coded winners (Green=Player, Red=Computer, Yellow=Draw)
 
@@ -58,34 +88,33 @@ See final statistics and overall winner after all rounds
 
 Choose to play again by typing 'Y' or exit by typing 'N'
 
-?? Game Rules
+## Game Rules:
 
-Stone crushes Scissors ? > ??
+Rock crushes Scissors ✊ > ✌️
 
-Scissors cuts Paper ?? > ?
+Scissors cuts Paper ✌️ > ✋
 
-Paper covers Stone ? > ?
+Paper covers Rock ✋ > ✊
 
 Same choice results in a draw
 
-??? Project Structure
+## Project Structure:
 
 RockPaperScissor/
 
-??? main.cpp                 # Main game implementation
+├── main.cpp                 # Main game implementation
 
-??? RockPaperScissor.sln     # Visual Studio solution file
+├── RockPaperScissor.sln     # Visual Studio solution file
 
-??? RockPaperScissor.vcxproj # Project configuration
+├── RockPaperScissor.vcxproj # Project configuration
 
-??? README.md                # Project documentation
+├── README.md                # Project documentation
 
-??? LICENSE                  # MIT License
+├── LICENSE                  # MIT License
 
-??? .gitignore              # Git ignore rules
+└── .gitignore              # Git ignore rules
 
-
-?? Code Architecture
+## Code Architecture:
 
 The project uses clean, modular C++ with:
 
@@ -99,7 +128,7 @@ Color-coded UI for enhanced user experience
 
 Input validation for error-free interaction
 
-Key Functions:
+### Key Functions:
 
 PlayGame() - Manages the main game flow
 
@@ -109,17 +138,17 @@ PrintRoundResults() - Displays colorful round outcomes
 
 ShowFinalGameResults() - Shows comprehensive statistics
 
-?? UI/UX Features
+## UI/UX Features:
 
 Clean console interface with proper formatting and tabs
 
 Dynamic color changes based on game outcome:
 
-?? Green: Player wins
+Green: Player wins
 
-?? Red: Computer wins (with beep sound)
+Red: Computer wins (with beep sound)
 
-?? Yellow: Draw rounds
+Yellow: Draw rounds
 
 Detailed round information showing both player and computer choices
 
@@ -127,7 +156,7 @@ Comprehensive game statistics including wins, draws, and final winner
 
 Visual separation between different rounds and final results
 
-?? Contributing
+## Contributing:
 
 Contributions, issues, and feature requests are welcome! Feel free to check issues page if you want to contribute.
 
@@ -141,18 +170,17 @@ Push to the branch (git push origin feature/improvement)
 
 Open a Pull Request
 
-?? License
-
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-??�?? Author
-
+## Author
 Mahmoud Amin
 
 GitHub: @Mahmoud-Amin-de
 
-?? Attribution
+### Attribution
 
-Game concept inspired by "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices. Code implementation, structure, and additional features developed from scratch by Mahmoud Amin.
+*Game concept inspired by "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices.
+Code implementation, structure, and additional features developed from scratch by Mahmoud Amin.*
 
 This project demonstrates fundamental C++ concepts including functions, data structures, control flow, and user interaction handling.
