@@ -106,18 +106,31 @@ Same choice results in a draw
 RockPaperScissor/
 
 ├── screenshots/
+
 │   ├── 1-game-start.PNG
+
 │   ├── 2-round-input.PNG
+
 │   ├── 3-round-results.PNG
+
 │   ├── 4-multiple-rounds.PNG
+
 │   ├── 5-final-results.PNG
+
 │   ├── 6-player-win.PNG
+
 │   └── 7-clean-results.PNG
+
 ├── main.cpp                 # Main game implementation
+
 ├── RockPaperScissor.sln     # Visual Studio solution file
+
 ├── RockPaperScissor.vcxproj # Project configuration
+
 ├── README.md                # Project documentation
+
 ├── LICENSE                  # MIT License
+
 └── .gitignore              # Git ignore rules
 
 ## Code Architecture:
