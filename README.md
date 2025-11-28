@@ -2,6 +2,35 @@
 
 A professional C++ console implementation of the classic Rock Paper Scissors game with colorful UI and multiple rounds support.
 
+## 🎮 Gameplay Screenshots
+
+### Game Start
+![Game Start](screenshots/1-game-start.png)
+*Starting the game - selecting number of rounds*
+
+### Player Input
+![Player Input](screenshots/2-round-input.png)
+*Making choices during gameplay*
+
+### Round Results  
+![Round Results](screenshots/3-round-results.png)
+*Color-coded round results with winner announcement*
+
+### Multiple Rounds
+![Multiple Rounds](screenshots/4-multiple-rounds.png)
+*Game progression through several rounds*
+
+### Final Statistics
+![Final Results](screenshots/5-final-results.png)
+*Comprehensive game statistics and final winner*
+
+### Player Victory
+![Player Win](screenshots/6-player-win.png)
+*Player winning a round against computer*
+
+### Clean Layout
+![Clean Results](screenshots/7-clean-results.png)
+*Well-formatted game summary screen*
 ## Project Context
 
 This project was developed as part of the **05 - Algorithms & Problem-Solving Level 2 Course** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
